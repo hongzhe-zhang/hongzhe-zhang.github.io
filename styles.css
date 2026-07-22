@@ -325,12 +325,13 @@ a:focus-visible {
 }
 
 .paper-title {
-  color: #242424;
-  font-weight: 600;
+  color: inherit;
+  font-weight: 400;
 }
 
 .venue {
-  color: var(--blue);
+  color: inherit;
+  font-style: italic;
 }
 
 .teaching-meta {
