@@ -317,12 +317,17 @@ a:focus-visible {
 }
 
 .paper-entry {
-  margin: 0 0 20px;
-  padding-left: 4px;
+  margin: 0;
+  padding: 0 4px 18px;
+}
+
+.paper-entry + .paper-entry {
+  padding-top: 18px;
+  border-top: 1px solid #edf0f1;
 }
 
 .paper-entry:last-child {
-  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .paper-entry::marker {
