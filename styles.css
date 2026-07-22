@@ -311,13 +311,24 @@ a:focus-visible {
   font-weight: 400;
 }
 
-.paper-entry {
-  padding: 0 0 23px;
+.paper-list {
+  margin: 0;
+  padding-left: 1.55rem;
 }
 
-.paper-entry + .paper-entry {
-  padding-top: 23px;
-  border-top: 1px solid #edf0f1;
+.paper-entry {
+  margin: 0 0 20px;
+  padding-left: 4px;
+}
+
+.paper-entry:last-child {
+  margin-bottom: 0;
+}
+
+.paper-entry::marker {
+  color: #333;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
 }
 
 .paper-entry p {
@@ -335,12 +346,6 @@ a:focus-visible {
 }
 
 .teaching-meta {
-  color: var(--muted);
-  font-size: 0.9rem;
-}
-
-.paper-note {
-  margin-top: 5px !important;
   color: var(--muted);
   font-size: 0.9rem;
 }
