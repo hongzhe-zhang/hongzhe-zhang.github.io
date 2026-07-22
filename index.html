@@ -13,277 +13,218 @@
 
     <header class="site-header">
       <nav class="nav-shell" aria-label="Primary navigation">
-        <a class="brand" href="#top" aria-label="Hongzhe Zhang home">Hongzhe Zhang</a>
+        <a class="brand" href="#home">Hongzhe Zhang</a>
         <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-menu" aria-label="Toggle navigation">
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
           <span class="nav-toggle-bar"></span>
         </button>
         <div class="site-menu" id="site-menu">
-          <a href="#bio">Bio</a>
-          <a href="#news">News</a>
           <a href="#publications">Publications</a>
           <a href="#working-papers">Working Papers</a>
           <a href="#teaching">Teaching</a>
           <a href="#service">Service</a>
-          <a href="#cv">CV</a>
+          <a href="#contact">Contact</a>
         </div>
       </nav>
     </header>
 
     <main id="main">
-      <section class="hero" id="top" aria-labelledby="page-title">
-        <div class="hero-media" aria-hidden="true">
-          <img src="assets/research-banner.png" alt="">
-        </div>
-        <div class="hero-content">
-          <p class="eyebrow">Information Systems | Financial Technology | AI</p>
-          <h1 id="page-title">Hongzhe Zhang</h1>
-          <p class="hero-lede">
-            Assistant Professor in Information Systems at The Chinese University of Hong Kong, Shenzhen.
-          </p>
-          <div class="hero-actions" aria-label="Contact links">
-            <a class="button button-primary" href="mailto:zhanghongzhe@cuhk.edu.cn">Email</a>
-            <a class="button button-secondary" href="#publications">Publications</a>
-          </div>
-        </div>
-      </section>
-
-      <section class="intro-band" id="bio" aria-labelledby="bio-heading">
-        <div class="content-grid">
-          <aside class="profile-panel" aria-label="Profile summary">
-            <div class="monogram" aria-hidden="true">HZ</div>
-            <h2>Hongzhe Zhang</h2>
-            <p>Assistant Professor in Information Systems</p>
-            <p>The Chinese University of Hong Kong, Shenzhen</p>
-            <dl class="profile-list">
-              <div>
-                <dt>Email</dt>
-                <dd><a href="mailto:zhanghongzhe@cuhk.edu.cn">zhanghongzhe@cuhk.edu.cn</a></dd>
-              </div>
-              <div>
-                <dt>Location</dt>
-                <dd>Shenzhen, China</dd>
-              </div>
-            </dl>
+      <section class="profile-section" id="home" aria-labelledby="biography-heading">
+        <div class="profile-layout">
+          <aside class="profile-sidebar" aria-label="Profile">
+            <div class="avatar-frame" aria-label="Portrait placeholder">
+              <span aria-hidden="true">HZ</span>
+            </div>
+            <h1>Hongzhe Zhang</h1>
+            <p class="profile-role">Assistant Professor</p>
+            <p class="profile-affiliation">The Chinese University of Hong Kong, Shenzhen</p>
+            <div class="profile-links" aria-label="Profile links">
+              <a href="mailto:zhanghongzhe@cuhk.edu.cn">Email</a>
+              <a href="assets/Hongzhe_Zhang_CV.pdf" download>CV</a>
+            </div>
           </aside>
 
-          <div class="bio-copy">
-            <p class="section-kicker">Bio</p>
-            <h2 id="bio-heading">Research at the intersection of analytics, platforms, and financial decision-making.</h2>
+          <div class="profile-main">
+            <h2 id="biography-heading">Biography</h2>
             <p>
-              I am an Assistant Professor in Information Systems at The Chinese University of Hong Kong, Shenzhen.
+              I am an Assistant Professor in Information Systems at The Chinese University of Hong Kong,
+              Shenzhen. I received my Ph.D. in Financial Services Analytics from the University of Delaware,
+              my M.S. in Statistics from Rutgers University, and my B.S. in Mathematics and Applied Mathematics
+              from Xiamen University.
+            </p>
+            <p>
               My research develops machine learning and optimization methods for financial technology,
               privacy-preserving AI, recommender systems, and data-driven business decision-making.
             </p>
-            <p>
-              I received my Ph.D. in Financial Services Analytics from the University of Delaware,
-              my M.S. in Statistics from Rutgers University, and my B.S. in Mathematics and Applied
-              Mathematics from Xiamen University.
-            </p>
 
-            <div class="interest-strip" aria-label="Research interests">
-              <span>Machine Learning</span>
-              <span>Optimization</span>
-              <span>Financial Technology</span>
-              <span>Privacy-Preserving AI</span>
-              <span>Recommender Systems</span>
+            <div class="profile-details">
+              <section aria-labelledby="interests-heading">
+                <h3 id="interests-heading">Interests</h3>
+                <ul>
+                  <li>Machine Learning</li>
+                  <li>Optimization</li>
+                  <li>Financial Technology</li>
+                  <li>Privacy-Preserving AI</li>
+                  <li>Recommender Systems</li>
+                </ul>
+              </section>
+
+              <section aria-labelledby="education-heading">
+                <h3 id="education-heading">Education</h3>
+                <div class="education-item">
+                  <strong>Ph.D. in Financial Services Analytics</strong>
+                  <span>University of Delaware, 2018 - 2023</span>
+                </div>
+                <div class="education-item">
+                  <strong>M.S. in Statistics</strong>
+                  <span>Rutgers University, 2016 - 2018</span>
+                </div>
+                <div class="education-item">
+                  <strong>B.S. in Mathematics and Applied Mathematics</strong>
+                  <span>Xiamen University, 2012 - 2016</span>
+                </div>
+              </section>
             </div>
           </div>
         </div>
       </section>
 
-      <section class="section-wrap" id="news" aria-labelledby="news-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Updates</p>
-          <h2 id="news-heading">News</h2>
-        </div>
-        <div class="news-list">
-          <article class="news-item">
-            <time>Forthcoming</time>
-            <p><strong>MIS Quarterly</strong> accepted "Latent Similarity-Enhanced Credit Risk Prediction."</p>
-          </article>
-          <article class="news-item">
-            <time>Forthcoming</time>
-            <p><strong>Information Systems Research</strong> accepted "A User Purchase Motivation-Aware Product Recommender System."</p>
-          </article>
-          <article class="news-item">
-            <time>2025 Spring</time>
-            <p>Taught FIN6129, MDS5118, and IBA6315 with course evaluations of 6.00/6.00, 5.88/6.00, and 6.00/6.00.</p>
-          </article>
-          <article class="news-item">
-            <time>2024</time>
-            <p>"Bias of AI-generated Content" was published in <strong>Scientific Reports</strong> and noted as an ESI Highly Cited Paper.</p>
-          </article>
-        </div>
+      <section class="content-section" id="publications" aria-labelledby="publications-heading">
+        <h2 id="publications-heading">Publications</h2>
+        <p class="author-legend"><sup>*</sup> Corresponding author; <sup>#</sup> Equal contribution.</p>
+
+        <article class="paper-entry">
+          <p>
+            <strong>Hongzhe Zhang</strong>, W. Qian, and X. Fang.
+            <span class="paper-title">Latent Similarity-Enhanced Credit Risk Prediction.</span>
+            <span class="venue">MIS Quarterly</span>, forthcoming.
+          </p>
+        </article>
+
+        <article class="paper-entry">
+          <p>
+            J. Xu, J. Wang<sup class="author-mark">*</sup>, <strong>Hongzhe Zhang</strong><sup class="author-mark">*</sup>, and T. Lu.
+            <span class="paper-title">A User Purchase Motivation-Aware Product Recommender System.</span>
+            <span class="venue">Information Systems Research</span>, forthcoming.
+          </p>
+        </article>
+
+        <article class="paper-entry">
+          <p>
+            <strong>Hongzhe Zhang</strong><sup class="author-mark">#</sup>, X. Zhao<sup class="author-mark">#</sup>, X. Fang, and B. Chen. 2024.
+            <span class="paper-title">Proactive Resource Request for Disaster Response: A Deep Learning-based Optimization Model.</span>
+            <span class="venue">Information Systems Research</span>, 35(2).
+          </p>
+        </article>
+
+        <article class="paper-entry">
+          <p>
+            X. Fang, S. Che, M. Mao, <strong>Hongzhe Zhang</strong>, M. Zhao, and X. Zhao. 2024.
+            <span class="paper-title">Bias of AI-generated Content: An Examination of News Produced by Large Language Models.</span>
+            <span class="venue">Scientific Reports</span>, 14(1).
+          </p>
+          <p class="paper-note">ESI Highly Cited Paper.</p>
+        </article>
+
+        <article class="paper-entry">
+          <p>
+            H. Wu, <strong>Hongzhe Zhang</strong><sup class="author-mark">*</sup>, L. Li, Z. Chen, F. Zhu, and X. Fang. 2022.
+            <span class="paper-title">Cheaper Is Better: Exploring Price Competitiveness for Online Purchase Prediction.</span>
+            <span class="venue">38th IEEE International Conference on Data Engineering (ICDE 2022)</span>.
+          </p>
+        </article>
       </section>
 
-      <section class="section-wrap section-shaded" id="publications" aria-labelledby="publications-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Research</p>
-          <h2 id="publications-heading">Selected Publications</h2>
-        </div>
-        <div class="publication-list">
-          <article class="publication">
-            <p class="pub-title">Latent Similarity-Enhanced Credit Risk Prediction</p>
-            <p class="pub-authors"><strong>Hongzhe Zhang</strong>, W. Qian, and X. Fang</p>
-            <p class="pub-venue">MIS Quarterly, forthcoming</p>
-          </article>
+      <section class="content-section" id="working-papers" aria-labelledby="working-papers-heading">
+        <h2 id="working-papers-heading">Working Papers</h2>
 
-          <article class="publication">
-            <p class="pub-title">A User Purchase Motivation-Aware Product Recommender System</p>
-            <p class="pub-authors">J. Xu, J. Wang, <strong>Hongzhe Zhang</strong>, and T. Lu</p>
-            <p class="pub-venue">Information Systems Research, forthcoming</p>
-            <p class="pub-note">Corresponding author</p>
-          </article>
+        <article class="paper-entry">
+          <p>
+            Y. Yang, J. Xu, <strong>Hongzhe Zhang</strong>, and X. Fang.
+            <span class="paper-title">Secure Confidential Business Information When Sharing Machine Learning Models.</span>
+            <span class="venue">Information Systems Research</span>, under major revision.
+          </p>
+        </article>
 
-          <article class="publication">
-            <p class="pub-title">Proactive Resource Request for Disaster Response: A Deep Learning-based Optimization Model</p>
-            <p class="pub-authors"><strong>Hongzhe Zhang</strong>, X. Zhao, X. Fang, and B. Chen</p>
-            <p class="pub-venue">Information Systems Research, 35(2), 2024</p>
-            <p class="pub-note">Equal contribution</p>
-          </article>
+        <article class="paper-entry">
+          <p>
+            <strong>Hongzhe Zhang</strong> and X. Fang.
+            <span class="paper-title">Privacy-Preserving Credit Risk Prediction with Alternative Data.</span>
+            Manuscript in preparation.
+          </p>
+        </article>
 
-          <article class="publication">
-            <p class="pub-title">Bias of AI-generated Content: An Examination of News Produced by Large Language Models</p>
-            <p class="pub-authors">X. Fang, S. Che, M. Mao, <strong>Hongzhe Zhang</strong>, M. Zhao, and X. Zhao</p>
-            <p class="pub-venue">Scientific Reports, 14(1), 2024</p>
-            <p class="pub-note">ESI Highly Cited Paper</p>
-          </article>
+        <article class="paper-entry">
+          <p>
+            B. Yin, Y. Zhu, M. Mao, <strong>Hongzhe Zhang</strong>, and X. Fang.
+            <span class="paper-title">Unleashing the Power of Large Language Models for Credit Risk Prediction: A Multi-view Time-Series LLM Approach.</span>
+            Manuscript in preparation.
+          </p>
+        </article>
 
-          <article class="publication">
-            <p class="pub-title">Cheaper Is Better: Exploring Price Competitiveness for Online Purchase Prediction</p>
-            <p class="pub-authors">H. Wu, <strong>Hongzhe Zhang</strong>, L. Li, Z. Chen, F. Zhu, and X. Fang</p>
-            <p class="pub-venue">38th IEEE International Conference on Data Engineering, 2022</p>
-            <p class="pub-note">Corresponding author</p>
-          </article>
-        </div>
+        <article class="paper-entry">
+          <p>
+            J. Chen, <strong>Hongzhe Zhang</strong>, and J. Xu.
+            <span class="paper-title">Heterophily-Aware Dynamic Friend Recommendation on Social Networks.</span>
+            Work in progress.
+          </p>
+        </article>
       </section>
 
-      <section class="section-wrap" id="working-papers" aria-labelledby="working-papers-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Pipeline</p>
-          <h2 id="working-papers-heading">Working Papers</h2>
-        </div>
-        <div class="two-column-list">
+      <section class="content-section" id="teaching" aria-labelledby="teaching-heading">
+        <h2 id="teaching-heading">Teaching</h2>
+        <div class="teaching-list">
           <article>
-            <h3>Secure Confidential Business Information When Sharing Machine Learning Models</h3>
-            <p>Y. Yang, J. Xu, <strong>Hongzhe Zhang</strong>, and X. Fang</p>
-            <p class="status">Under major revision at Information Systems Research</p>
-          </article>
-          <article>
-            <h3>Privacy-Preserving Credit Risk Prediction with Alternative Data</h3>
-            <p><strong>Hongzhe Zhang</strong> and X. Fang</p>
-            <p class="status">Manuscript in preparation</p>
-          </article>
-          <article>
-            <h3>Unleashing the Power of Large Language Models for Credit Risk Prediction</h3>
-            <p>B. Yin, Y. Zhu, M. Mao, <strong>Hongzhe Zhang</strong>, and X. Fang</p>
-            <p class="status">Manuscript in preparation</p>
-          </article>
-          <article>
-            <h3>Heterophily-Aware Dynamic Friend Recommendation on Social Networks</h3>
-            <p>J. Chen, <strong>Hongzhe Zhang</strong>, and J. Xu</p>
-            <p class="status">Work in progress</p>
-          </article>
-        </div>
-      </section>
-
-      <section class="section-wrap section-shaded" id="teaching" aria-labelledby="teaching-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Courses</p>
-          <h2 id="teaching-heading">Teaching</h2>
-        </div>
-        <div class="teaching-grid">
-          <article class="course">
-            <h3>FIN6129 | Blockchain in Finance</h3>
+            <h3>FIN6129, Blockchain in Finance</h3>
             <p>M.S. in Finance, CUHK-Shenzhen</p>
-            <ul>
-              <li>2025 Spring | 45 enrolled | 6.00/6.00</li>
-              <li>2024 Spring | 39 enrolled | 5.97/6.00</li>
-            </ul>
+            <p class="teaching-meta">2025 Spring: 45 enrolled, 6.00/6.00 | 2024 Spring: 39 enrolled, 5.97/6.00</p>
           </article>
-          <article class="course">
-            <h3>MDS5118 | Blockchain</h3>
+          <article>
+            <h3>MDS5118, Blockchain</h3>
             <p>M.S. in Data Science, CUHK-Shenzhen</p>
-            <ul>
-              <li>2025 Spring | 77 enrolled | 5.88/6.00</li>
-              <li>2024 Spring | 25 enrolled | 6.00/6.00</li>
-            </ul>
+            <p class="teaching-meta">2025 Spring: 77 enrolled, 5.88/6.00 | 2024 Spring: 25 enrolled, 6.00/6.00</p>
           </article>
-          <article class="course">
-            <h3>IBA6315 | Smart Programming for Business</h3>
+          <article>
+            <h3>IBA6315, Smart Programming for Business</h3>
             <p>M.S. in IMBA, CUHK-Shenzhen</p>
-            <ul>
-              <li>2025 Spring | 15 enrolled | 6.00/6.00</li>
-              <li>2024 Spring | 24 enrolled | 6.00/6.00</li>
-            </ul>
+            <p class="teaching-meta">2025 Spring: 15 enrolled, 6.00/6.00 | 2024 Spring: 24 enrolled, 6.00/6.00</p>
           </article>
-          <article class="course">
-            <h3>MDS6652 | Operations Management and Analytics</h3>
+          <article>
+            <h3>MDS6652, Operations Management and Analytics</h3>
             <p>M.S. in Data Science, CUHK-Shenzhen</p>
-            <ul>
-              <li>2023 Fall | 8 enrolled | 6.00/6.00</li>
-            </ul>
+            <p class="teaching-meta">2023 Fall: 8 enrolled, 6.00/6.00</p>
           </article>
         </div>
       </section>
 
-      <section class="section-wrap" id="service" aria-labelledby="service-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Community</p>
-          <h2 id="service-heading">Academic Service</h2>
+      <section class="content-section" id="service" aria-labelledby="service-heading">
+        <h2 id="service-heading">Academic Service</h2>
+        <div class="service-block">
+          <h3>Journal Reviewer</h3>
+          <p>
+            MIS Quarterly, Information Systems Research, INFORMS Journal on Computing,
+            Production and Operations Management, Journal of Operations Management,
+            IEEE Transactions on Dependable and Secure Computing, ACM Transactions on
+            Management Information Systems, and Information Technology &amp; Management.
+          </p>
         </div>
-        <div class="service-layout">
-          <article>
-            <h3>Journal Reviewer</h3>
-            <p>
-              MIS Quarterly, Information Systems Research, INFORMS Journal on Computing,
-              Production and Operations Management, Journal of Operations Management,
-              IEEE Transactions on Dependable and Secure Computing, ACM Transactions on
-              Management Information Systems, and Information Technology &amp; Management.
-            </p>
-          </article>
-          <article>
-            <h3>Conference Associate Editor</h3>
-            <p>ICIS 2023, ICIS 2024, and PACIS 2024.</p>
-          </article>
+        <div class="service-block">
+          <h3>Conference Associate Editor</h3>
+          <p>ICIS 2023, ICIS 2024, and PACIS 2024.</p>
         </div>
       </section>
 
-      <section class="section-wrap section-shaded" id="cv" aria-labelledby="cv-heading">
-        <div class="section-heading">
-          <p class="section-kicker">Background</p>
-          <h2 id="cv-heading">CV Snapshot</h2>
-        </div>
-        <div class="timeline">
-          <article>
-            <time>2023 - present</time>
-            <h3>The Chinese University of Hong Kong, Shenzhen</h3>
-            <p>Assistant Professor in Information Systems</p>
-          </article>
-          <article>
-            <time>2018 - 2023</time>
-            <h3>University of Delaware</h3>
-            <p>Ph.D. in Financial Services Analytics</p>
-          </article>
-          <article>
-            <time>2016 - 2018</time>
-            <h3>Rutgers, The State University of New Jersey</h3>
-            <p>M.S. in Statistics</p>
-          </article>
-          <article>
-            <time>2012 - 2016</time>
-            <h3>Xiamen University</h3>
-            <p>B.S. in Mathematics and Applied Mathematics</p>
-          </article>
-        </div>
+      <section class="content-section contact-section" id="contact" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">Contact</h2>
+        <p><a href="mailto:zhanghongzhe@cuhk.edu.cn">zhanghongzhe@cuhk.edu.cn</a></p>
+        <p>The Chinese University of Hong Kong, Shenzhen</p>
+        <p>Shenzhen, China</p>
       </section>
     </main>
 
     <footer class="site-footer">
       <p>&copy; <span id="year">2026</span> Hongzhe Zhang</p>
-      <a href="mailto:zhanghongzhe@cuhk.edu.cn">zhanghongzhe@cuhk.edu.cn</a>
     </footer>
 
     <script src="script.js"></script>
