@@ -246,8 +246,8 @@ a:focus-visible {
 .interest-groups {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 5px;
-  margin-top: 8px;
+  gap: 16px;
+  margin-top: 12px;
 }
 
 .interest-group h4 {
@@ -255,18 +255,18 @@ a:focus-visible {
   color: var(--muted);
   font-size: 0.78rem;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.3;
 }
 
 .interest-group ul {
-  margin-top: 2px;
-  padding-left: 17px;
+  margin-top: 6px;
+  padding-left: 21px;
 }
 
 .interest-group li {
-  margin: 0;
-  font-size: 0.78rem;
-  line-height: 1.25;
+  margin: 4px 0;
+  font-size: 0.98rem;
+  line-height: 1.5;
 }
 
 .education-item {
