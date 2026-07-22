@@ -183,8 +183,19 @@ a:focus-visible {
   font-size: 1.05rem;
 }
 
-.profile-affiliation {
+.profile-unit {
   margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 0.94rem;
+  line-height: 1.4;
+}
+
+.profile-role + .profile-unit {
+  margin-top: 8px;
+}
+
+.profile-affiliation {
+  margin: 7px 0 0;
   color: var(--blue);
   font-size: 1.02rem;
   line-height: 1.45;
